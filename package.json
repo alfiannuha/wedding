@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
+    "build_prod": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
+    "build": "nuxt generate",
     "test": "npm run test:unit && npm run test:e2e",
     "test:unit": "cross-env TEST=unit ava ./test/specs/**/*",
     "test:e2e": "cross-env TEST=e2e ava ./test/e2e/**/*"
