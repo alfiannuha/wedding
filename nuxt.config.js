@@ -10,7 +10,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s',
-    title: 'wedding-1',
+    title: 'Weddingku',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -18,7 +18,17 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'shortcut icon', type: 'image/x-icon', href: '/wedding.png' },
+      { rel: 'shortcut icon', type: 'image/png', sizes: '16x16', href: '/wedding.png' },
+      { rel: 'shortcut icon', type: 'image/png', sizes: '32x32', href: '/wedding.png' },
+      { rel: 'shortcut icon', type: 'image/png', sizes: '64x64', href: '/wedding.png' },
+      { rel: 'shortcut icon', type: 'image/png', sizes: '120x120', href: '/wedding.png' },
+      { rel: 'shortcut icon', type: 'image/png', sizes: '144x144', href: '/wedding.png' },
+      { rel: 'shortcut icon', type: 'image/png', sizes: '152x152', href: '/wedding.png' },
+      { rel: 'shortcut icon', type: 'image/png', sizes: '192x192', href: '/wedding.png' },
+      { rel: 'apple-touch-icon', href: '/wedding.png' },
+      { rel: 'mask-icon', href: '/wedding.png' },
+      { rel: 'ms-tile-image', href: '/wedding.png' }
     ]
   },
 
