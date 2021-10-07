@@ -54,6 +54,20 @@ export default {
     '@nuxtjs/sitemap',
   ],
 
+  sitemap: {
+    hostname: 'https://weddingku.vercel.app',
+    // hostname: process.env.NODE_ENV === 'development' ? process.env.HOST_NAME_DEV : process.env.HOST_NAME_PROD,
+    path: 'sitemap.xml',
+    gzip: true,
+    generate: false,
+    exclude: [],
+    defaults: {
+      changefreq: 'daily',
+      priority: 1,
+      lastmod: new Date()
+    }
+  },
+
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
 
