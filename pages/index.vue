@@ -20,7 +20,7 @@
                   text-four
                   font-weight-bold
                   text-capitalize text-justify mb-8">
-                Nuha & Partner
+                Nuha & Nabila
               </div>
               <div
                 v-else
@@ -33,9 +33,9 @@
                   text-four
                   font-weight-bold
                   text-capitalize text-justify mb-8">
-                  <div>Nuha</div>
+                  <div>Alfian An Naufal Nuha</div>
                   <div class="text-center">&</div>
-                  <div class="text-right">Partner</div>
+                  <div class="text-right">Nabila Nurika Utada</div>
               </div>
               <p
                 class="
@@ -156,18 +156,18 @@
         <p class="font-kaushan text-center white--text text-decoration-underline">
           Lokasi Acara
         </p>
-        <!-- <p class="text-h4 mt-1 white--text font-kaushan mb-6 text-center">
-          Lokasi Acara
-        </p> -->
         <v-row no-gutters>
           <v-col cols="12" md="8">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3217.1421506253605!2d110.44283281415413!3d-7.766024979178626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5a394e87a11b%3A0x0!2zN8KwNDUnNTcuNyJTIDExMMKwMjYnNDIuMSJF!5e1!3m2!1sen!2sid!4v1632648414545!5m2!1sen!2sid"
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3966.199591683741!2d107.0417820749665!3d-6.2374029937508535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMTQnMTQuNyJTIDEwN8KwMDInMzkuNyJF!5e0!3m2!1sen!2sid!4v1689568635789!5m2!1sen!2sid"
             :width="$vuetify.breakpoint.name !== 'xs' ? 750 : 350"  height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </v-col>
           <v-col cols="12" md="4">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, obcaecati. Praesentium commodi omnis aliquam, assumenda qui perspiciatis, quasi placeat eaque dolores suscipit repellendus, ducimus et. Cupiditate doloribus excepturi vero quos.
+            Jl. Gatot Kaca Raya 5-2, Setiamekar, Kec. Tambun Sel., Kabupaten Bekasi, Jawa Barat 17510
           </v-col>
         </v-row>
+        <a href="https://goo.gl/maps/DBdLUSrwNQDywqUp8" target="_blank">
+          Buka di Google Maps
+        </a>
       </v-container>
     </section>
 
