@@ -11,7 +11,7 @@
           <v-col cols="9" class="d-flex align-center justify-left">
             <nuxt-link to="/" style="text-decoration: none">
             <div class="header-title text-center">
-              Nuha & Parnert
+              Nuha & Nabila
             </div>
             </nuxt-link>
             <nuxt-link
@@ -33,7 +33,7 @@
           <v-col cols="10" style="padding: 0 0 1rem">
             <nuxt-link to="/">
               <div class="header-title text-center">
-                Nuha & Parnert
+                Nuha & Nabila
               </div>
             </nuxt-link>
           </v-col>
