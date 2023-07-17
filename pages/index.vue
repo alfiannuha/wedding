@@ -33,7 +33,7 @@
                   text-four
                   font-weight-bold
                   text-capitalize text-justify mb-8">
-                  <div>Alfian An Naufal Nuha</div>
+                  <div class="text-left">Alfian An Naufal Nuha</div>
                   <div class="text-center">&</div>
                   <div class="text-right">Nabila Nurika Utada</div>
               </div>
